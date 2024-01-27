@@ -14,6 +14,7 @@ In NotesRepository.java modify these to make connection
 Download the connector jar and add it to the build path
 1. [MYSQL](https://dev.mysql.com/downloads/connector/j/)
 2. [PostgreSQL](https://jdbc.postgresql.org/download/)
+
 #### MYSQL
 ```
 Class.forName("com.mysql.cj.jdbc.Driver");
