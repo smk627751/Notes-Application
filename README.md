@@ -18,7 +18,7 @@ Download the connector jar and add it to the build path
 #### MYSQL
 ```
 Class.forName("com.mysql.cj.jdbc.Driver");
-String dbURL = "jdbc:postgresql://localhost:3306/YOUR_DATABASENAME";
+String dbURL = "jdbc:mysql://localhost:3306/YOUR_DATABASENAME";
 String user = "YOUR_USERNAME";
 String pass = "YOUR_PASSWORD";
 this.con = DriverManager.getConnection(dbURL, user, pass);
@@ -32,7 +32,7 @@ String pass = "YOUR_PASSWORD";
 this.con = DriverManager.getConnection(dbURL, user, pass);
 ```
 ### Create table
-#### MYSQL
+#### MYSQLmysql
 ```
 CREATE TABLE IF NOT EXISTS notes_table (
     id INT AUTO_INCREMENT PRIMARY KEY,
