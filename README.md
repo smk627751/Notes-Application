@@ -32,7 +32,7 @@ String pass = "YOUR_PASSWORD";
 this.con = DriverManager.getConnection(dbURL, user, pass);
 ```
 ### Create table
-#### MYSQLmysql
+#### MYSQL
 ```
 CREATE TABLE IF NOT EXISTS notes_table (
     id INT AUTO_INCREMENT PRIMARY KEY,
