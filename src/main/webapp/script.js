@@ -32,7 +32,7 @@ class Note{
             content.innerHTML = this.content
             currentId = this.id
             filename.textContent = this.title
-            count.textContent = this.content.length
+            count.textContent = content.textContent.split(" ").length
             lastEdit.textContent = f.format(time)
         })
         document.querySelector('.notes').appendChild(div)
