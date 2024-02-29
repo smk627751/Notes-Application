@@ -1,6 +1,9 @@
 # Notes
+
 ### Output
-![img](D:\Java IDE\projects\Notes\output.png)
+![img](output.png)
+[Click here to watch video](https://youtu.be/VjNP2sL_p9k)
+
 ### Front-end
 1. HTML
 2. CSS
