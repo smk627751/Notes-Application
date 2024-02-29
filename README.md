@@ -1,4 +1,6 @@
 # Notes
+### Output
+![img](D:\Java IDE\projects\Notes\output.png)
 ### Front-end
 1. HTML
 2. CSS
